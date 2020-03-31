@@ -52,7 +52,3 @@ def feed(idx):
     results.add(PlayItem(title, img, url, subtitle))
   return results
 
-def search(q):
-  results = PlayItemList()
-  return results
-
